@@ -1,0 +1,5 @@
+api1: uvicorn --port $PORT shardapi:app --reload
+api2: traefik_v2.6.3_linux_amd64/traefik --configFile=traefik.toml
+api3: uvicorn --port $PORT shardapi:app --root-path /api/v1
+
+
