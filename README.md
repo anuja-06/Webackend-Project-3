@@ -39,7 +39,7 @@ Retrieving the statistics for a user. If you visit Wordle, open your browser’s
    "averageGuesses": 5
 }
 
-Note: the names "1" through "6" are not valid identifiers for class members in Python, so if you are returning a Pydantic model as a response you will need to use Field customization to set an alias for each of these.
+
 
 Retrieving the top 10 users by number of wins
 
